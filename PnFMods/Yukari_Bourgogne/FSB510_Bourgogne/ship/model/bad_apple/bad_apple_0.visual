@@ -1,0 +1,52 @@
+<bad_apple_0.visual>
+	<skeleton>
+		<node>
+			<identifier>Scene Root</identifier>
+			<transform>
+				<row0>1.000000 0.000000 0.000000</row0>
+				<row1>0.000000 1.000000 0.000000</row1>
+				<row2>0.000000 0.000000 1.000000</row2>
+				<row3>0.000000 0.000000 0.000000</row3>
+			</transform>
+			<node>
+				<identifier>badapple</identifier>
+				<transform>
+					<row0>1.000000 0.000000 0.000000</row0>
+					<row1>0.000000 1.000000 0.000000</row1>
+					<row2>0.000000 0.000000 1.000000</row2>
+					<row3>0.000000 0.000000 0.000000</row3>
+				</transform>
+			</node>
+		</node>
+	</skeleton>
+	<properties>
+		<underwaterModel>false</underwaterModel>
+		<abovewaterModel>true</abovewaterModel>
+	</properties>
+	<boundingBox>
+		<min>-1.000000 -0.750000 -0.000000</min>
+		<max>1.000000 0.750000 0.000000</max>
+	</boundingBox>
+	<renderSets>
+		<renderSet>
+			<name>badappleShape</name>
+			<treatAsWorldSpaceObject>false</treatAsWorldSpaceObject>
+			<nodes>
+				<node>badapple</node>
+			</nodes>
+			<material>
+				<identifier>badapple</identifier>
+				<mfm>	PnFMods/Yukari_Bourgogne/FSB510_Bourgogne/ship/model/bad_apple/bad_apple_0.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>2000</extent>
+			<castsShadow>true</castsShadow>
+			<renderSets>
+				<renderSet>badappleShape</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
+</bad_apple_0.visual>

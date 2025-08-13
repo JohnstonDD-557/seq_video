@@ -1,0 +1,32 @@
+<haerfude_0.mfm>
+	<fx>	shaders/std_effects/holographic.fx	</fx>
+	<property>
+			glowStrength
+		<Float>	1.50000	</Float>
+	</property>
+	<property>
+			shakeFactor
+		<Float>	0.0000	</Float>
+	</property>
+	<property>
+			glitchLineWidth			
+		<Float>	0.0000	</Float>
+	</property>
+	<property>
+			glitchLinePeriod
+		<Float>	0.0000	</Float>
+	</property>
+	<property>
+			glitchLineOffset
+		<Float>	0.0000	</Float>
+	</property>
+	<property>
+			enableRadialOpacity
+		<Bool>	true	</Bool>
+	</property>
+	<collisionFlags>	0	</collisionFlags>
+	<property>
+			imageTexture
+		<Texture>	PnFMods/AL_Halford/ASD519_Halford/ship/model/haerfude/haerfude_a_0.dds	</Texture>
+	</property>
+</haerfude_0.mfm>

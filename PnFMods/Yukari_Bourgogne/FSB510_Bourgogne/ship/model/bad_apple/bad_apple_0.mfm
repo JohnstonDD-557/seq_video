@@ -1,0 +1,37 @@
+<bad_apple_0.mfm>
+	<fx>	shaders/materials/pbs/ship_emissive_material.fx	</fx>
+	<property>
+			emissivePower
+		<Float>	0.5	</Float>
+	</property>
+	<materialKind>	0	</materialKind>
+	<collisionFlags>	0	</collisionFlags>
+	<property>
+			doubleSided
+		<Bool>	true	</Bool>
+	</property>
+	<property>
+			alphaTestEnable
+		<Bool>	true	</Bool>
+	</property>
+	<property>
+			alphaReference
+		<Int>	250	</Int>
+	</property>
+	<property>
+			ambientOcclusionMap
+		<Texture>	PnFMods/Yukari_Bourgogne/FSB510_Bourgogne/ship/default_ao.dds	</Texture>
+	</property>
+	<property>
+			diffuseMap
+		<Texture>	PnFMods/Yukari_Bourgogne/FSB510_Bourgogne/ship/model/bad_apple/bad_apple_a_0.dds	</Texture>
+	</property>
+	<property>
+			metallicGlossMap
+		<Texture>	PnFMods/Yukari_Bourgogne/FSB510_Bourgogne/ship/model/base_mg.dds	</Texture>
+	</property>
+	<property>
+			normalMap
+		<Texture>	PnFMods/Yukari_Bourgogne/FSB510_Bourgogne/ship/model/base_n.dds	</Texture>
+	</property>
+</bad_apple_0.mfm>

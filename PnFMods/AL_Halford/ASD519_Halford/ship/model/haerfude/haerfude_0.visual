@@ -1,0 +1,52 @@
+<haerfude_0.visual>
+	<skeleton>
+		<node>
+			<identifier>Scene Root</identifier>
+			<transform>
+				<row0>1.000000 0.000000 0.000000</row0>
+				<row1>0.000000 1.000000 0.000000</row1>
+				<row2>0.000000 0.000000 1.000000</row2>
+				<row3>0.000000 0.000000 0.000000</row3>
+			</transform>
+			<node>
+				<identifier>haerfude</identifier>
+				<transform>
+					<row0>1.000000 0.000000 0.000000</row0>
+					<row1>0.000000 1.000000 0.000000</row1>
+					<row2>0.000000 0.000000 1.000000</row2>
+					<row3>0.000000 0.000000 0.000000</row3>
+				</transform>
+			</node>
+		</node>
+	</skeleton>
+	<properties>
+		<underwaterModel>false</underwaterModel>
+		<abovewaterModel>true</abovewaterModel>
+	</properties>
+	<boundingBox>
+		<min>	-0.4020 -0.3053 -1.1502	</min>
+		<max>	0.4001 1.6262 3.8544	</max>
+	</boundingBox>
+	<renderSets>
+		<renderSet>
+			<name>haerfudeShape</name>
+			<treatAsWorldSpaceObject>false</treatAsWorldSpaceObject>
+			<nodes>
+				<node>haerfude</node>
+			</nodes>
+			<material>
+				<identifier>haerfudeShape</identifier>
+				<mfm>	PnFMods/AL_Halford/ASD519_Halford/ship/model/haerfude/haerfude_0.mfm	</mfm>
+			</material>
+		</renderSet>
+	</renderSets>
+	<lods>
+		<lod>
+			<extent>2000</extent>
+			<castsShadow>true</castsShadow>
+			<renderSets>
+				<renderSet>haerfudeShape</renderSet>
+			</renderSets>
+		</lod>
+	</lods>
+</haerfude_0.visual>
